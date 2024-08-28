@@ -25,7 +25,7 @@ def run_tests():
     expected_output=[0,1,2,3,4]
     k=solution.removeDuplicates(nums)
     actual_output=nums[:k]
-    print(f"Test Case 1 - Expected Output: {expected_output}, Result: {actual_output}")
+    print(f"Test Case 2 - Expected Output: {expected_output}, Result: {actual_output}")
     print("Pass" if actual_output == expected_output  else "Fail")
 
 run_tests()
